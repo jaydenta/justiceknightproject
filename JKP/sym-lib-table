@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/Jayden/Desktop/Github/JusticeKnightProject/justiceknightproject/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri C:/Users/Jayden/Desktop/Github/JusticeKnightProject/justiceknightproject/Shark50/AcheronLibrary-master/symbols/acheronSymbols.lib)(options "")(descr ""))
+)
