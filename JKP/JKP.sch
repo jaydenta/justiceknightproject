@@ -2997,8 +2997,6 @@ Connection ~ 6250 2600
 Wire Wire Line
 	6250 2600 6250 1950
 Connection ~ 6250 3250
-Wire Wire Line
-	6250 3250 6250 3100
 Connection ~ 6250 3900
 Wire Wire Line
 	6250 3900 6250 3250
@@ -3328,25 +3326,6 @@ F 3 "" H 14825 4575 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	15600 3250 15600 4550
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX97
-U 1 1 61D857FF
-P 5950 3150
-F 0 "MX97" H 5983 3373 60  0000 C CNN
-F 1 "MX-NoLED" H 5983 3299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 5325 3125 60  0001 C CNN
-F 3 "" H 5325 3125 60  0001 C CNN
-	1    5950 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3100 6250 3100
-Connection ~ 6250 3100
-Wire Wire Line
-	6250 3100 6250 2600
-Wire Wire Line
-	5900 3300 5900 3450
-Connection ~ 5900 3450
 Connection ~ 14150 4950
 Wire Wire Line
 	12500 4950 14150 4950
@@ -3401,4 +3380,25 @@ Text GLabel 4400 2100 2    50   Input ~ 0
 COL8
 Text GLabel 4400 2400 2    50   Input ~ 0
 COL9
+Wire Wire Line
+	6250 3100 6250 2600
+Wire Wire Line
+	6250 3250 6250 3100
+Connection ~ 6250 3100
+Wire Wire Line
+	6100 3100 6250 3100
+Connection ~ 5900 3450
+Wire Wire Line
+	5900 3300 5900 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX97
+U 1 1 61D857FF
+P 5950 3150
+F 0 "MX97" H 5983 3373 60  0000 C CNN
+F 1 "MX-NoLED" H 5983 3299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 5325 3125 60  0001 C CNN
+F 3 "" H 5325 3125 60  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
